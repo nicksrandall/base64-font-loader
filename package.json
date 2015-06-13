@@ -1,0 +1,25 @@
+{
+  "name": "font-loader",
+  "version": "0.0.1",
+  "author": "Nick Randall",
+  "description": "font loader module for webpack",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "loader-utils": "~0.2.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicksrandall/font-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicksrandall/font-loader/issues"
+  },
+  "homepage": "https://github.com/nicksrandall/font-loader",
+  "main": "index.js",
+  "license": "MIT"
+}
