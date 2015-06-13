@@ -1,4 +1,4 @@
-# font loader for webpack
+# Base64 font loader for webpack
 This loader will Base64 encode any fonts in your css files.
 
 ## Usage
@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         test: /\.(woff|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'font-loader'
+        loader: 'base64-font-loader'
       }
     ]
   },

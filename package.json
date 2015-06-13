@@ -1,7 +1,6 @@
 {
-  "name": "font-loader",
+  "name": "base64-font-loader",
   "version": "0.0.1",
-  "author": "Nick Randall",
   "description": "font loader module for webpack",
   "files": [
     "index.js"
@@ -21,5 +20,11 @@
   },
   "homepage": "https://github.com/nicksrandall/font-loader",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "font",
+    "loader"
+  ],
+  "author": "Nick Randall <nicksrandall@gmail.com> (http://nickrandall.com)"
 }
