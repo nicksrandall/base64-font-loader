@@ -57,7 +57,7 @@ module.exports = {
 ```css
 @font-face {
   font-family: 'icons';
-  src: src: url(data:application/vnd.ms-fontobject;charset=utf-8;base64,[BASE_64_STRING]);
+  src: url(data:application/vnd.ms-fontobject;charset=utf-8;base64,[BASE_64_STRING]);
   src: url(data:application/vnd.ms-fontobject;charset=utf-8;base64,[BASE_64_STRING]) format('eot'),
        url(data:application/font-woff;charset=utf-8;base64,[BASE_64_STRING]) format('woff'),
        url(data:application/x-font-ttf;charset=utf-8;base64,[BASE_64_STRING]) format('truetype'),
