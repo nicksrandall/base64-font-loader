@@ -6,6 +6,7 @@ var loaderUtils = require('loader-utils');
 
 var dictionary = {
 	'woff': 'application/font-woff',
+	'woff2': 'application/font-woff2',
 	'eot': 'application/vnd.ms-fontobject',
 	'ttf': 'application/x-font-ttf',
 	'svg': 'image/svg+xml'
