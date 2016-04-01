@@ -9,6 +9,7 @@ var dictionary = {
 	'woff2': 'application/font-woff2',
 	'eot': 'application/vnd.ms-fontobject',
 	'ttf': 'application/x-font-ttf',
+	'otf': 'font/opentype',
 	'svg': 'image/svg+xml'
 };
 
