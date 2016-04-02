@@ -1,6 +1,6 @@
 {
   "name": "base64-font-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "font loader module for webpack",
   "files": [
     "index.js"
