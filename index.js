@@ -14,7 +14,7 @@ var dictionary = {
 };
 
 module.exports = function(content) {
-	var options = loaderUtils.getOptions(this) = {}
+	var options = loaderUtils.getOptions(this) || {}
 	this.cacheable && this.cacheable();
 	var query = this.resourceQuery ? loaderUtils.parseQuery(this.resourceQuery) : {}
 	var ext = loaderUtils.interpolateName(this, "[ext]", {
