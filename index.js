@@ -14,10 +14,11 @@ var dictionary = {
 };
 
 module.exports = function(content) {
+	var options = loaderUtils.getOptions(this) = {}
 	this.cacheable && this.cacheable();
-	var query = loaderUtils.parseQuery(this.query);
+	var query = this.resourceQuery ? loaderUtils.parseQuery(this.resourceQuery) : {}
 	var ext = loaderUtils.interpolateName(this, "[ext]", {
-		context: query.context || this.options.context,
+		context: query.context || options.context || undefined,
 		content: content,
 		regExp: query.regExp
 	}).toLowerCase();
